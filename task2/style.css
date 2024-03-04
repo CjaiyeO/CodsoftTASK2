@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    overflow-x: hidden; 
+    background-color: rgb(254, 225, 204);
+}
+.contain {
+    display: flex;
+    align-items: center;
+    gap: 1270px;
+}
+
+
+.soulsvg {
+    position: relative;
+    transform: translate(-50%, -100%);
+    z-index: -1; 
+  }
+*{
+    padding: 5px;
+}
+.topright{
+    text-align: right;
+}
+.imaginarybox {
+    display: block;
+    width: 15vmax; 
+    height: 15vmin; 
+    border: 0px solid black; 
+    overflow: hidden; 
+    word-wrap: break-word; 
+}
+.buttonn {
+    border: none; 
+    background: none; 
+    padding: 0; 
+    cursor: crosshair; 
+    overflow: hidden; 
+    display: inline-block; 
+    vertical-align: middle; 
+    box-sizing: border-box;
+    margin: 0em;
+    padding-block: 0px;
+    padding-inline: 0px;
+    border-width: 0px;
+    border-style: outset;
+    border-image: initial;
+}
+.container{
+    .org{
+        color: orange;
+        text-align: center;
+    }
+    .mid{
+        text-align: center;
+    }
+
+    .imaginarybo {
+        margin: 5px;
+        width: 15vmax; 
+        height: 24vmin;
+        border: 0px solid black; 
+        overflow: hidden; 
+        word-wrap: break-word; 
+    }
+    .matrix-container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 800px;
+    }
+}
+.imaginary {
+    width: 22vmax;    height: 22vmin;
+    border: 1px solid black;     overflow: hidden; 
+    word-wrap: break-word;   position: relative;
+    bottom: 10px; 
+
+    top: 100%; 
+    right: 0px;
+    left : 77%  ;
+
+    transform: translateY(-50%); 
+    display: flex;
+    align-items: center; 
+}
